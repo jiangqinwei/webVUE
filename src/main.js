@@ -4,6 +4,9 @@ import router from "./router"
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import axios from 'axios' //引入axios
+import "bootstrap"
+import "bootstrap/dist/css/bootstrap.min.css";
+
 Vue.prototype.ajax=axios//修改Vue的原型属性
 
 Vue.config.productionTip = false
